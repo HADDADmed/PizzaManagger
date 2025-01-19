@@ -58,7 +58,7 @@ class Pizza {
 
     }
   
-    // Sets prices for base, toppings, and extras using getPrices
+    // Sets prices for base, toppings, and extras using getPrices  function
     private setPrices(base: string, toppings: string[], extras: string[]) {
       const { basePrice, toppingsPrice, extrasPrice } = getPrices(
         base,
